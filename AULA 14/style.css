@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    background-image: url(https://pt.quizur.com/_image?href=https://static.quizur.com/i/b/58b5f50c911f38.7528648358b5f50c8336c4.06059735.jpg&w=1024&h=1024&f=webp);
+    background-color: #d3e0e0;
+    background-size: 100%;
+    gap: 1rem;
+}
+    @font-face {
+      font-family:'top-secret';
+      src: url(./fonts/top\ secret/topsecret.ttf) format(truetype);
+    }
+    @font-face {
+      font-family:'gimme-danger';
+      src: url(./fonts/Gimme\ Danger/gimmedanger.ttf) format(truetype);
+    }
+    @font-face {
+      font-family: 'll-cooper';
+      src: url(./fonts/LL\ Cooper/LLCOOPER.TTF) format(truetype);
+    }
+
+    
+    
+h1{
+    color: #1a1f22;
+    text-align: center;
+    text-shadow: 1px 1px 3px gray;
+    font-size: 2rem;
+    font-family: 'top-secret';
+}
+h2{
+  
+    color: rgb(44, 65, 65);
+    font-family: 'gimme-danger';
+
+}
+p{
+    text-align: justify;
+    font-family: 'll-cooper' ;
+}
+
+main{
+  background: radial-gradient(circle, rgb(77, 45, 45), rgb(151, 126, 126) 70%);
+  max-width: 600px;
+  min-width: 390px;
+    width: 40%;
+    border-radius: 15px;
+    padding: 20px;
+    border: 2px solid #434545
+}
+main h2 {
+  display: flex;
+  justify-content: center;
+}
