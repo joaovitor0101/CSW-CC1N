@@ -6,19 +6,20 @@ body{
     align-items: center;
     flex-direction: column;
     width: 100vw;
-    /* background-image: url(https://pt.quizur.com/_image?href=https://static.quizur.com/i/b/58b5f50c911f38.7528648358b5f50c8336c4.06059735.jpg&w=1024&h=1024&f=webp); */
+    background-image: url(https://pt.quizur.com/_image?href=https://static.quizur.com/i/b/58b5f50c911f38.7528648358b5f50c8336c4.06059735.jpg&w=1024&h=1024&f=webp);
     background-color: #d3e0e0;
     background-repeat: no-repeat;
     background-size: 100%;
     gap: 1rem;
 }
 h1{
-    color: #407da3;
+    color: #1a1f22;
     text-align: center;
     text-shadow: 1px 1px 3px gray;
     font-size: 2rem;
 }
 h2{
+  
     color: rgb(13, 19, 19);
 
 }
@@ -27,11 +28,17 @@ p{
 }
 
 main{
-    background-color: aqua;
+  background: radial-gradient(circle, rgb(77, 45, 45), rgb(151, 126, 126) 70%);
+  max-width: 600px;
+  min-width: 390px;
     width: 40%;
     border-radius: 15px;
     padding: 20px;
     border: 2px solid #434545
+}
+main h2 {
+  display: flex;
+  justify-content: center;
 }
 .sedan-regular {
     font-family: "Sedan", serif;
