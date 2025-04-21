@@ -1,0 +1,95 @@
+header{
+    background-color: rgb(61, 57, 52);
+    padding: 1rem 0;
+    width: 100vw;
+    display:flex;
+    justify-content: center;
+    gap: 1rem;
+ }
+body {
+    background: linear-gradient(45deg, #d1c7da, #262b35);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    overflow-x: hidden;
+    justify-items: center;
+    a {
+        color: antiquewhite;
+        text-decoration: none;
+       
+    }
+}
+
+
+
+  
+  .dados {
+    background-color: #ffffffee;
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .dados-contato p {
+    margin: 8px 0;
+    font-size: 16px;
+  }
+  
+  form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    resize: vertical;
+  }
+  
+  textarea {
+    min-height: 100px;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: rgb(61, 57, 52);
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
