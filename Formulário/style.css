@@ -1,0 +1,28 @@
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size:x-large;
+    display: flex;
+    justify-content: center;
+}
+
+.fontes_corpo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 3px solid #000;
+    width: 40%;
+    border-radius: 10px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#login{
+    height: 180px;
+    width: 19%;
+}
+
+#checkbox {
+        
+}

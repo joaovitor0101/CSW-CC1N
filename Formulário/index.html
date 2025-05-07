@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <form action="mailto:jvgb.es@gmail.com" method="post">
         <label for="email">E-mail:</label>
-        <input type="email" id="email" name="email" placeholder="Insert your e-mail">
+        <input type="email" id="email"  placeholder="Insert your e-mail">
         <br> <br>
         <label for="Senha">Senha:</label>
         <input type="password" id="password" name="password" placeholder="Insert your password">
@@ -33,18 +34,52 @@
         <input type="radio" name="Opção" value="Option 3"> Opção 3
         <br> <br> <br>
 
-        <label for="">Esporte favorito:</label>
-        <select name="Esporte Favorito" size="1">
+        <label for="" id="esporte">Esporte favorito:</label>
+        <select name="Esporte Favorito" size="1" id="esporte">
             <option value="">Selecione</option>
             <option value="Basquete">Basquete</option>
             <option value="Futebol">Futebol</option>
             <option value="Handball">Handball</option>
             <option value="Hoquei">Hoquéi</option>
         </select>
+
         <br>
         <br>
+        <label for="">Nome</label>
+        <input type="text" name="Nome" id="Nome">
+
+        <br> <br>
         <label for="">Idade</label>
         <input type="text" name="idade" id="idade" size="3" maxlength="3">
+
+        <br> <br>
+        <label for="">Escolha uma cor:</label>
+        <input type="color" name="cor" id="cor">
+        
+        <br> <br>
+        <label for="">Data e Hora</label>
+        <br>
+        <input type="datetime-local" name="dtlocal" id="dt-local">
+
+        <br> <br>
+        <label for="email" id="email">E-mail (patter):</label>
+        <input type="email" id="email" name="email" placeholder="Insert your e-mail">
+
+        <br> <br>
+        <label for="">Selecione um arquivo</label>
+        <br>
+        <input type="file" name="Arquivo" id="Arquivo">
+
+        <br> <br>
+        <textarea name="comentário" id="comentario" cols="60" rows="5" placeholder="Deixe um comentário"></textarea>
+
+        <br> <br>
+        <button>
+            <input type="submit" value="Enviar E-mail">
+            <input type="reset" value="Limpar">
+        </button>
+
+        <a href="Pagina.html">Pagina certa</a>
     </form>
 </body>
 </html>
